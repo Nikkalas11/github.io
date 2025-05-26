@@ -1,0 +1,24 @@
+
+$primary-color: rgb(247, 246, 246);
+$secondary-color: rgb(0, 0, 0);
+$border-color: rgb(196, 196, 196);
+$font-size: 14px;
+$font-description:  rgb(136, 136, 136);
+
+%shared-styles {
+    font-family: inherit;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid $border-color;
+    border-radius: 20px;
+    color: $secondary-color;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    appearance: none;
+    background-image: url(Img/Polygon\ 1.svg);
+    padding-left: 23px;
+    padding-right: 23px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 22px);
+}
